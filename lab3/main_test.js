@@ -2,6 +2,7 @@ const {describe, it} = require('node:test');
 const assert = require('assert');
 const { Calculator } = require('./main');
 
+
 const calc = new Calculator();
 
 describe('Calculator', () => {
@@ -60,3 +61,4 @@ describe('Calculator', () => {
         assert.throws(() => calc.log(-3), { message: 'math domain error (2)' });
     });
 });
+
