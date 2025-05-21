@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import angr
 import claripy
 import sys
@@ -28,6 +29,7 @@ def main():
         sys.stdout.buffer.write(key)
     else:
         print("No solution found.")
+
 
 if __name__ == '__main__':
     main()
